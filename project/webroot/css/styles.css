@@ -1,0 +1,50 @@
+body{
+	background-color: #a5c3c3;
+	background-image: url("../img/bg.jpg");
+	background-repeat: no-repeat;
+	background-position:0 100%;
+	width: 100vw;
+	height: 100vh;
+}
+#wrapper{
+	
+	width: 500px;
+	margin: 0px auto;
+	padding: 10px;
+	
+	text-align: justify;
+}
+#wrapper > div{
+	margin-bottom: 15px;
+}
+#wrapper p{
+	margin-bottom: 5px;
+}
+
+.date{
+	font-weight: bold;
+}
+.name{
+	font-size: 12pt;
+}
+textarea.form-control{
+	width: 100%;
+	padding: 5px 10px;
+	min-height: 200px;
+	resize: vertical;
+	text-align: justify;
+	
+}
+.log {
+	text-align: center;
+}
+.wrapper_note{
+	background-color: ghostwhite;
+	border-radius: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.userName{
+	font-size: 20px;
+	margin: 30px 0;
+}
